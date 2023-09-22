@@ -1,0 +1,15 @@
+﻿@model ML.Disco
+@{
+    ViewBag.Title = "GetAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    @Scripts.Render("~/bundles/jquery")
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+}
+
+<h2>GetAll</h2>
+
+@using (Html.BeginForm("GetAll", "Disco", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+}
